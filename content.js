@@ -1,7 +1,7 @@
 // content.js
 
 const ShowSummaryButton = true;
-
+console.log("yay");
 (async () => {
     const src = chrome.runtime.getURL("build/pdf.mjs");
     const pdfjsLib = await import(src);
